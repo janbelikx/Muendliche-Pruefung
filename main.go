@@ -4,12 +4,10 @@ import "fmt"
 
 func main() {
 
-
 	var fortschritt int = 0
 	fmt.Printf("Aktueller Fortschritt: %d\n", fortschritt)
 
 	// fmt.Printf("Prüfung gestartet für: %s\n", name)
-
 
 	// if __________ {
 	// 	fmt.Println("Status: Ziel erreicht.")
@@ -17,8 +15,6 @@ func main() {
 	// } else {
 	// 	fmt.Println("Status: In Bearbeitung...")
 	// }
-
-
 
 	pruefungsPhase := "Vorbereitung"
 
@@ -32,8 +28,6 @@ func main() {
 	default:
 		fmt.Println("Unbekannte Phase.")
 	}
-
-
 
 	fmt.Println("\n************************************")
 	fmt.Println("Sie sind bereit für die Prüfung!")
